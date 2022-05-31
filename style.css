@@ -1,0 +1,48 @@
+.cotainers{
+    box-sizing: border-box;
+    display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color:antiquewhite;
+    
+}
+
+
+
+
+.main-div{
+    
+    width:300px;
+    
+    padding: 10px;
+    
+}
+.card-title{
+    font-size:2rem;
+    color:white;
+}
+
+
+.main-card{
+    box-sizing: border-box;
+    background-color:rgb(218, 39, 143);
+   padding-left: 2px;
+    width:100%;
+    box-shadow: 2px 5px 5px black;
+}
+
+img{height:300px;
+    width:100%;
+    border:1px solid white;
+    box-sizing: border-box;
+    
+}
+.card-des{
+    line-height: 1.5;
+    text-align: justify;
+    color:white;
+}
+.main-div:hover{
+    box-shadow:6px 12px 10px;
+}
